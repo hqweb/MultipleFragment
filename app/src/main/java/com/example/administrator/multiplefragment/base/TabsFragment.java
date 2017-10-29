@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
 import com.example.administrator.multiplefragment.R;
 
 import butterknife.ButterKnife;
@@ -22,4 +23,19 @@ public class TabsFragment extends BaseFragment{
         ButterKnife.bind(this,view);
         return view;
     }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+
+        initView();
+    }
+
+    private void initView() {
+
+    }
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.unbind(this);
+    }
+
 }

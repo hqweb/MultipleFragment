@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_66">#66ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_66">#66000000</color>
+    <color name="background">#f2f2f2</color>
+    <color name="text_content_color">#333333</color>
+
+
+    <color name="tabbar_text_color">#999999</color>
+    <color name="tabbar_text_color_checked">#5EDDCA</color>
+    <color name="common_line_color">#eaeaea</color>
 </resources>
