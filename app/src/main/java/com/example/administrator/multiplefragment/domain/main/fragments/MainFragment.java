@@ -7,6 +7,6 @@ import com.example.administrator.multiplefragment.base.BaseFragment;
  */
 
 public class MainFragment extends BaseFragment{
-    
+
 
 }
